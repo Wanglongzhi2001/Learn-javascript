@@ -1,0 +1,64 @@
+body{
+    background-color: #927df1;
+    /* 设置为flex布局方式 */
+    display: flex;
+    /* 垂直方向居中 */
+    align-items: center;
+    /* 水平方向居中 */
+    justify-content: center; 
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.arrow{
+    height: 150px;
+    cursor: pointer; /* 鼠标放上去有手指特效 */
+}
+
+.slider{
+    display: flex;
+    transition: all 0.7s ease; /* 轮播图切换特效 */
+}
+
+/* 复用了一张箭头图片，所以有一张要旋转180度 */
+.right{
+    transform: rotate(180deg);
+}
+
+.frame{
+    width: 800px; /* 控制轮播图区域大小 */
+    height: 500px;
+    overflow: hidden; /* 图片大小溢出隐藏 */
+}
+
+/* 控制图片resize问题 */
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bottom{
+    display: flex;
+    gap: 30px;
+}
+
+/* 使按钮变成圆形、实心、白色、给其光标指针*/
+.button{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+}
