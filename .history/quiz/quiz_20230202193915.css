@@ -1,0 +1,43 @@
+body{
+    background-color: #22223b;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: "Open Sans", sans-serif;
+}
+
+.container{
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    position: relative; /* 调整为相对位置使得提交按钮在contiainer底部而不是页面底部 */
+}
+
+.content{
+    padding: 50px;
+}
+
+/* 调整问题字体大小 */ 
+.question{
+    font-size: 40px;
+}
+
+.answer{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+/* 使用绝对位置调整submit按钮位置 */
+.submit{
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    width: 100%;;
+    height: 50px;
+    cursor: pointer;
+    position:absolute;
+    bottom: 0;
+}
+
+.result{
+    display: none;
+}

@@ -1,0 +1,11 @@
+body{
+    background-color: #22223b;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.result{
+    display: none;
+}

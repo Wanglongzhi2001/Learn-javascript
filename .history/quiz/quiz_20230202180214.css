@@ -1,0 +1,26 @@
+body{
+    background-color: #22223b;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 800px;height: 500px;
+    background-color: white;
+}
+
+/* 使用绝对位置调整submit按钮位置 */
+.submit{
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    cursor: pointer;
+    widows: 100%;;
+    height: 50px;
+
+}
+.result{
+    display: none;
+}
