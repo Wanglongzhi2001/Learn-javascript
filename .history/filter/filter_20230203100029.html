@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./filter.css" />
+    <!-- 使用谷歌字体 -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Filter Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="leftMenu">
+        <input type="text" placeholder="Search..." class="search" />
+        <h1>Categories</h1>
+        <div class="categories">
+          <span class="category">All</span>
+          <span class="category">Casual</span>
+          <span class="category">Dress</span>
+          <span class="category">Sport</span>
+          <span class="category">luxury</span>
+        </div>
+        <h1>Maximum Price</h1>
+        <div class="price">
+          <!-- 我们将在js中实现min和max <input type="range" class="priceRange" min="1" max="10000"> -->
+          <input type="range" class="priceRange" />
+        </div>
+      </div>
+      <div class="content"></div>
+    </div>
+    <script src="./filter.js"></script>
+  </body>
+</html>

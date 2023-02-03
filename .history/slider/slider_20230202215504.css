@@ -39,7 +39,7 @@ body {
 .frame {
   width: 800px; /* 控制轮播图区域大小 */
   height: 500px;
-  overflow: hidden; /* 图片大小溢出隐藏 */
+  /*overflow: hidden; /* 图片大小溢出隐藏 */
 }
 
 /* 控制图片resize问题 */
